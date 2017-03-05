@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white" >
+    
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="60sp"
+        android:layout_gravity="top"
+        android:scaleType="fitXY"
+        android:src="@drawable/img_title_guide" />
+
+    <ExpandableListView
+        android:id="@+id/listProductLocation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
