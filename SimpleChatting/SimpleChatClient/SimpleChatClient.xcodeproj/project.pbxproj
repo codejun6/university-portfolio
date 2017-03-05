@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		714766321B0B07A100A180A0 /* ChatUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 714766311B0B07A100A180A0 /* ChatUser.m */; };
+		7147663B1B0B251A00A180A0 /* user_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 714766391B0B251A00A180A0 /* user_off.png */; };
+		7147663C1B0B251A00A180A0 /* user_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 7147663A1B0B251A00A180A0 /* user_on.png */; };
+		7164F1621B1EFD6D00C29A49 /* SettingWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7164F1611B1EFD6D00C29A49 /* SettingWindow.xib */; };
+		7164F1691B1F307800C29A49 /* SettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7164F1681B1F307800C29A49 /* SettingController.m */; };
+		7187894A1B00BF1500509445 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 718789491B00BF1500509445 /* AppDelegate.m */; };
+		7187894C1B00BF1500509445 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7187894B1B00BF1500509445 /* main.m */; };
+		7187894F1B00BF1500509445 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7187894E1B00BF1500509445 /* ViewController.m */; };
+		718789511B00BF1500509445 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 718789501B00BF1500509445 /* Images.xcassets */; };
+		718789541B00BF1500509445 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 718789521B00BF1500509445 /* Main.storyboard */; };
+		718789601B00BF1500509445 /* SimpleChatClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7187895F1B00BF1500509445 /* SimpleChatClientTests.m */; };
+		7190BD3D1B0CC33F00E9A902 /* msjc_io.c in Sources */ = {isa = PBXBuildFile; fileRef = 7190BD3C1B0CC33F00E9A902 /* msjc_io.c */; };
+		71D0E5F61B2ADB8200E071F0 /* MakingRoomWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71D0E5F51B2ADB8200E071F0 /* MakingRoomWindow.xib */; };
+		71D0E5F91B2AE0DC00E071F0 /* MakingRoomController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D0E5F81B2AE0DC00E071F0 /* MakingRoomController.m */; };
+		71D0E5FB1B2AE3C800E071F0 /* EnteringRoomWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71D0E5FA1B2AE3C800E071F0 /* EnteringRoomWindow.xib */; };
+		71D0E5FE1B2AEDA200E071F0 /* EnteringRoomController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D0E5FD1B2AEDA200E071F0 /* EnteringRoomController.m */; };
+		71D0E6951B2D3D5A00E071F0 /* RoomItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D0E6941B2D3D5A00E071F0 /* RoomItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7187895A1B00BF1500509445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7187893B1B00BF1500509445 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 718789421B00BF1500509445;
+			remoteInfo = SimpleChatClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		714766301B0B079700A180A0 /* ChatUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatUser.h; sourceTree = "<group>"; };
+		714766311B0B07A100A180A0 /* ChatUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatUser.m; sourceTree = "<group>"; };
+		714766391B0B251A00A180A0 /* user_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_off.png; sourceTree = "<group>"; };
+		7147663A1B0B251A00A180A0 /* user_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_on.png; sourceTree = "<group>"; };
+		7164F1611B1EFD6D00C29A49 /* SettingWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingWindow.xib; sourceTree = "<group>"; };
+		7164F1671B1F307800C29A49 /* SettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingController.h; sourceTree = "<group>"; };
+		7164F1681B1F307800C29A49 /* SettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingController.m; sourceTree = "<group>"; };
+		718789431B00BF1500509445 /* SimpleChatClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleChatClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		718789471B00BF1500509445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		718789481B00BF1500509445 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		718789491B00BF1500509445 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7187894B1B00BF1500509445 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7187894D1B00BF1500509445 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7187894E1B00BF1500509445 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		718789501B00BF1500509445 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		718789531B00BF1500509445 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		718789591B00BF1500509445 /* SimpleChatClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleChatClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7187895E1B00BF1500509445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7187895F1B00BF1500509445 /* SimpleChatClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleChatClientTests.m; sourceTree = "<group>"; };
+		7190BD381B0CC2A000E9A902 /* msjc_io.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = msjc_io.h; path = SimpleChatClient/msjc_io.h; sourceTree = "<group>"; };
+		7190BD3C1B0CC33F00E9A902 /* msjc_io.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = msjc_io.c; path = SimpleChatClient/msjc_io.c; sourceTree = "<group>"; };
+		71D0E5F51B2ADB8200E071F0 /* MakingRoomWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MakingRoomWindow.xib; sourceTree = "<group>"; };
+		71D0E5F71B2AE0DC00E071F0 /* MakingRoomController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakingRoomController.h; sourceTree = "<group>"; };
+		71D0E5F81B2AE0DC00E071F0 /* MakingRoomController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakingRoomController.m; sourceTree = "<group>"; };
+		71D0E5FA1B2AE3C800E071F0 /* EnteringRoomWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EnteringRoomWindow.xib; sourceTree = "<group>"; };
+		71D0E5FC1B2AEDA200E071F0 /* EnteringRoomController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnteringRoomController.h; sourceTree = "<group>"; };
+		71D0E5FD1B2AEDA200E071F0 /* EnteringRoomController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnteringRoomController.m; sourceTree = "<group>"; };
+		71D0E6931B2D3D5A00E071F0 /* RoomItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomItem.h; sourceTree = "<group>"; };
+		71D0E6941B2D3D5A00E071F0 /* RoomItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		718789401B00BF1500509445 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		718789561B00BF1500509445 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7187893A1B00BF1500509445 = {
+			isa = PBXGroup;
+			children = (
+				7190BD3C1B0CC33F00E9A902 /* msjc_io.c */,
+				7190BD381B0CC2A000E9A902 /* msjc_io.h */,
+				718789451B00BF1500509445 /* SimpleChatClient */,
+				7187895C1B00BF1500509445 /* SimpleChatClientTests */,
+				718789441B00BF1500509445 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		718789441B00BF1500509445 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				718789431B00BF1500509445 /* SimpleChatClient.app */,
+				718789591B00BF1500509445 /* SimpleChatClientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		718789451B00BF1500509445 /* SimpleChatClient */ = {
+			isa = PBXGroup;
+			children = (
+				718789481B00BF1500509445 /* AppDelegate.h */,
+				718789491B00BF1500509445 /* AppDelegate.m */,
+				714766301B0B079700A180A0 /* ChatUser.h */,
+				714766311B0B07A100A180A0 /* ChatUser.m */,
+				7187894D1B00BF1500509445 /* ViewController.h */,
+				7187894E1B00BF1500509445 /* ViewController.m */,
+				718789521B00BF1500509445 /* Main.storyboard */,
+				71D0E5F71B2AE0DC00E071F0 /* MakingRoomController.h */,
+				71D0E5F81B2AE0DC00E071F0 /* MakingRoomController.m */,
+				71D0E5F51B2ADB8200E071F0 /* MakingRoomWindow.xib */,
+				71D0E6931B2D3D5A00E071F0 /* RoomItem.h */,
+				71D0E6941B2D3D5A00E071F0 /* RoomItem.m */,
+				71D0E5FC1B2AEDA200E071F0 /* EnteringRoomController.h */,
+				71D0E5FD1B2AEDA200E071F0 /* EnteringRoomController.m */,
+				71D0E5FA1B2AE3C800E071F0 /* EnteringRoomWindow.xib */,
+				7164F1671B1F307800C29A49 /* SettingController.h */,
+				7164F1681B1F307800C29A49 /* SettingController.m */,
+				7164F1611B1EFD6D00C29A49 /* SettingWindow.xib */,
+				718789501B00BF1500509445 /* Images.xcassets */,
+				718789461B00BF1500509445 /* Supporting Files */,
+			);
+			path = SimpleChatClient;
+			sourceTree = "<group>";
+		};
+		718789461B00BF1500509445 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				714766391B0B251A00A180A0 /* user_off.png */,
+				7147663A1B0B251A00A180A0 /* user_on.png */,
+				718789471B00BF1500509445 /* Info.plist */,
+				7187894B1B00BF1500509445 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7187895C1B00BF1500509445 /* SimpleChatClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				7187895F1B00BF1500509445 /* SimpleChatClientTests.m */,
+				7187895D1B00BF1500509445 /* Supporting Files */,
+			);
+			path = SimpleChatClientTests;
+			sourceTree = "<group>";
+		};
+		7187895D1B00BF1500509445 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7187895E1B00BF1500509445 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		718789421B00BF1500509445 /* SimpleChatClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 718789631B00BF1500509445 /* Build configuration list for PBXNativeTarget "SimpleChatClient" */;
+			buildPhases = (
+				7187893F1B00BF1500509445 /* Sources */,
+				718789401B00BF1500509445 /* Frameworks */,
+				718789411B00BF1500509445 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleChatClient;
+			productName = SimpleChatClient;
+			productReference = 718789431B00BF1500509445 /* SimpleChatClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		718789581B00BF1500509445 /* SimpleChatClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 718789661B00BF1500509445 /* Build configuration list for PBXNativeTarget "SimpleChatClientTests" */;
+			buildPhases = (
+				718789551B00BF1500509445 /* Sources */,
+				718789561B00BF1500509445 /* Frameworks */,
+				718789571B00BF1500509445 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7187895B1B00BF1500509445 /* PBXTargetDependency */,
+			);
+			name = SimpleChatClientTests;
+			productName = SimpleChatClientTests;
+			productReference = 718789591B00BF1500509445 /* SimpleChatClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7187893B1B00BF1500509445 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "MS MacBook";
+				TargetAttributes = {
+					718789421B00BF1500509445 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					718789581B00BF1500509445 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 718789421B00BF1500509445;
+					};
+				};
+			};
+			buildConfigurationList = 7187893E1B00BF1500509445 /* Build configuration list for PBXProject "SimpleChatClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7187893A1B00BF1500509445;
+			productRefGroup = 718789441B00BF1500509445 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				718789421B00BF1500509445 /* SimpleChatClient */,
+				718789581B00BF1500509445 /* SimpleChatClientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		718789411B00BF1500509445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7147663B1B0B251A00A180A0 /* user_off.png in Resources */,
+				7147663C1B0B251A00A180A0 /* user_on.png in Resources */,
+				7164F1621B1EFD6D00C29A49 /* SettingWindow.xib in Resources */,
+				718789511B00BF1500509445 /* Images.xcassets in Resources */,
+				718789541B00BF1500509445 /* Main.storyboard in Resources */,
+				71D0E5F61B2ADB8200E071F0 /* MakingRoomWindow.xib in Resources */,
+				71D0E5FB1B2AE3C800E071F0 /* EnteringRoomWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		718789571B00BF1500509445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7187893F1B00BF1500509445 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71D0E5FE1B2AEDA200E071F0 /* EnteringRoomController.m in Sources */,
+				714766321B0B07A100A180A0 /* ChatUser.m in Sources */,
+				7190BD3D1B0CC33F00E9A902 /* msjc_io.c in Sources */,
+				7187894F1B00BF1500509445 /* ViewController.m in Sources */,
+				7187894C1B00BF1500509445 /* main.m in Sources */,
+				71D0E5F91B2AE0DC00E071F0 /* MakingRoomController.m in Sources */,
+				7164F1691B1F307800C29A49 /* SettingController.m in Sources */,
+				7187894A1B00BF1500509445 /* AppDelegate.m in Sources */,
+				71D0E6951B2D3D5A00E071F0 /* RoomItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		718789551B00BF1500509445 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				718789601B00BF1500509445 /* SimpleChatClientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7187895B1B00BF1500509445 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 718789421B00BF1500509445 /* SimpleChatClient */;
+			targetProxy = 7187895A1B00BF1500509445 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		718789521B00BF1500509445 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				718789531B00BF1500509445 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		718789611B00BF1500509445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		718789621B00BF1500509445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		718789641B00BF1500509445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SimpleChatClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		718789651B00BF1500509445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SimpleChatClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		718789671B00BF1500509445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleChatClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleChatClient.app/Contents/MacOS/SimpleChatClient";
+			};
+			name = Debug;
+		};
+		718789681B00BF1500509445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleChatClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleChatClient.app/Contents/MacOS/SimpleChatClient";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7187893E1B00BF1500509445 /* Build configuration list for PBXProject "SimpleChatClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				718789611B00BF1500509445 /* Debug */,
+				718789621B00BF1500509445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		718789631B00BF1500509445 /* Build configuration list for PBXNativeTarget "SimpleChatClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				718789641B00BF1500509445 /* Debug */,
+				718789651B00BF1500509445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		718789661B00BF1500509445 /* Build configuration list for PBXNativeTarget "SimpleChatClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				718789671B00BF1500509445 /* Debug */,
+				718789681B00BF1500509445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7187893B1B00BF1500509445 /* Project object */;
+}
