@@ -1,0 +1,17 @@
+program   test_program
+var
+	int a, b, c;
+	int xxx,yyy;
+	double dd;
+begin
+	a = 10.1;
+	b = 20;
+	c = 3;
+	print a,b,c;
+	xxx = 40.2;
+	yyy = (a + b)*c - xxx;
+	print yyy;
+	dd = 2.2;
+	yyy = 10 - dd;
+	print dd, yyy;
+end
