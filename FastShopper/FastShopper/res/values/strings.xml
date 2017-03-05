@@ -1,0 +1,6 @@
+<resources>
+
+    <string name="app_name">Fast Shopper</string>
+    <string name= "scan_guide">바코드를 화면 안에 비춰주세요.</string>
+
+</resources>
