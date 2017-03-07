@@ -16,5 +16,7 @@ int main(int argc, char *argv[])
 	convert_to_intercode(filename);
 	syntax_check();
 	execute();
+
+	system("PAUSE");
 	return 0;
 }

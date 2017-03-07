@@ -55,7 +55,11 @@ void fileopen(char *fname)
 	g_srcLineno = 0;
 	g_fEndOfFile = false;
 	g_fin.open(fname);
-	if(!g_fin) { cout << fname << "을(를) 열 수 없습니다.\n"; exit(1); }
+	if(!g_fin) { 
+		cout << fname << "을(를) 열 수 없습니다.\n"; 
+		system("PAUSE");
+		exit(1); 
+	}
 }
 
 /* 다음 행 읽기 */

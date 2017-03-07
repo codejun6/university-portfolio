@@ -33,5 +33,6 @@ void err_exit(Tobj a, Tobj b, Tobj c, Tobj d)
 		if(ob[i].type == 's') cout << ob[i].s;  // 문자열 정보
 	}
 	cout << endl;
+	system("PAUSE");
 	exit(1);
 }
