@@ -58,3 +58,16 @@ SDI 프로젝트로 진행했으며, 간단한 영상처리를 사용하고, 파
 ### 디렉토리 구성
 - **PhotoGalmuri 소스** : 본 프로젝트의 소스코드와 DB 파일인 *phogaldata.dat* 파일입니다.
 - **PhotoGalmuri 실행파일** : 실행파일인 *PhotoGalmuri.exe* 파일, DB 파일인 *phogaldata.dat* 파일, 그리고 예시 이미지를 모아놓은 *examples* 디렉토리입니다. 이 예시 자료를 이용하거나 다른 이미지 파일을 이용해 테스트할 수 있습니다.
+
+## 6. Z사 iOS 개발 테스트 - 'ZComTest' 디렉토리
+Z사 입사지원 테스트의 요구사항에 맞춰 만들었던 앱입니다.  
+구글 맵 기반 맵 뷰, 테이블 뷰, 네비게이션 컨트롤러를 사용해 전체적인 UI를 구성했으며, 서버 URL로부터 JSON 형태로 데이터를 받아 이미지와 데이터를 보여줍니다. 이미지 캐싱과 로컬 DB를 이용한 데이터 캐싱을 지원합니다.  
+오픈소스로 GoogleMaps, Alamofire, SwiftyJSON, Kingfisher, RealmSwift를 사용했습니다. CocoaPods를 이용해 라이브러리를 관리하므로, 프로젝트를 실행하기 위해 'pod install' 작업이 필요합니다.  
+
+### 디렉토리 구성
+- **ZComTest.xcworkspace** : 프로젝트 파일입니다. CocoaPods로 라이브러리를 설치 후, 이 파일로 프로젝트를 열어야 합니다.  
+- **ZComTest/Application** : Main 폴더로 AppDelegate 파일과 뷰 및 컨트롤러 관련 파일이 있습니다.  
+- **ZComTest/Models** : 모델 관련 파일입니다.  
+- **ZComTest/Common** : 유틸성 파일입니다.  
+- **ZComTest/Assets** : 스토리보드, Info.plist 등과 같은 리소스 파일입니다.
+
